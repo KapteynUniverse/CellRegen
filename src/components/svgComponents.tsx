@@ -108,3 +108,20 @@ export const Arrow = ({ style }: { style: string }) => {
     </svg>
   );
 };
+
+export const Arrow2 = ({ style }: { style: string }) => {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={style}
+    >
+      <path
+        d="M0 12.5h23m-9.2 9.4 9.2-9.4-9.2-9.4"
+        stroke="currentColor"
+        stroke-width="1.75"
+      ></path>
+    </svg>
+  );
+};

@@ -14,7 +14,7 @@ import Testimonials from "@/components/mainPageSections/testimonials";
 export default function Home() {
   return (
     <>
-      <Main title="CellRegen Main Page">
+      <Main title="CellRegen Main Page" srOnly>
         <Hero />
         <div className="wrapper">
           <BuiltForBioOptimization />

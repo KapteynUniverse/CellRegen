@@ -43,3 +43,35 @@ svg {
 header li {
   @apply flex-1 min-w-fit;
 }
+
+@layer utilities {
+  .arrow {
+    @apply absolute transition-transform;
+  }
+
+  .group:hover .arrow--first {
+    animation: arrowOut 0.3s forwards;
+  }
+
+  .group:hover .arrow--second {
+    animation: arrowIn 0.6s forwards;
+  }
+
+  @keyframes arrowOut {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(2rem);
+    }
+  }
+
+  @keyframes arrowIn {
+    from {
+      transform: translateX(-2rem);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+}
