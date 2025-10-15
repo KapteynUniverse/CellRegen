@@ -1,3 +1,9 @@
+7 saat
+
+türkiye gbp euro ne? Bir işe yaradığını görmedim.
+Her yere socials koymuşlar, footerda 2 tane yan yana var, onu logo altına koydum, header üstüne de koyabilirim
+Dizayn olarak saçma hepsini tek bir hizada topladım
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
