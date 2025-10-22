@@ -1,4 +1,4 @@
-11 saat
+13 saat
 
 türkiye gbp euro ne? Bir işe yaradığını görmedim.
 Her yere socials koymuşlar, footerda 2 tane yan yana var, onu logo altına koydum, header üstüne de koyabilirim

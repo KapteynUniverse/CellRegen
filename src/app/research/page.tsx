@@ -1,6 +1,6 @@
 import Main from "@/components/main";
-import Ingredients from "@/components/researchSections/ingredients";
-import Products from "@/components/researchSections/products";
+import Ingredients from "@/components/researchPage/ingredients";
+import Products from "@/components/researchPage/products";
 
 const Page = () => {
   return (

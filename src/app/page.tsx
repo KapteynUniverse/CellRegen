@@ -1,15 +1,15 @@
 import Main from "@/components/main";
-import BlogPosts from "@/components/mainPageSections/blogPosts";
-import BuiltForBioOptimization from "@/components/mainPageSections/builtForBioOptimization";
-import CallToAction from "@/components/mainPageSections/callToAction";
-import ClinicallyProven from "@/components/mainPageSections/clinicallyProven";
-import Hero from "@/components/mainPageSections/hero";
-import Instagram from "@/components/mainPageSections/instagram";
-import PressMentions from "@/components/mainPageSections/pressMentions";
-import PreventivePowerOfCellRegen from "@/components/mainPageSections/preventivePowerOfCellRegen";
-import RevitalizeYourLife from "@/components/mainPageSections/revitalizeYourLife";
-import Shopify from "@/components/mainPageSections/shopify";
-import Testimonials from "@/components/mainPageSections/testimonials";
+import BlogPosts from "@/components/mainPage/blogPosts";
+import BuiltForBioOptimization from "@/components/mainPage/builtForBioOptimization";
+import CallToAction from "@/components/mainPage/callToAction";
+import ClinicallyProven from "@/components/mainPage/clinicallyProven";
+import Hero from "@/components/mainPage/hero";
+import Instagram from "@/components/mainPage/instagram";
+import PressMentions from "@/components/mainPage/pressMentions";
+import PreventivePowerOfCellRegen from "@/components/mainPage/preventivePowerOfCellRegen";
+import RevitalizeYourLife from "@/components/mainPage/revitalizeYourLife";
+import Shopify from "@/components/mainPage/shopify";
+import Testimonials from "@/components/mainPage/testimonials";
 
 export default function Home() {
   return (

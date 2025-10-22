@@ -63,15 +63,13 @@ const TopNav = () => {
           <Link href="/">Choose Your CellRegen Protocol</Link>
         </li>
         <li>
-          <Link href="/pages/research">Scientific Research</Link>
+          <Link href="/research">Scientific Research</Link>
         </li>
         <li>
-          <Link href="/pages/health-benefits">
-            Health Benefits & Ingredients
-          </Link>
+          <Link href="/health-benefits">Health Benefits & Ingredients</Link>
         </li>
         <li>
-          <Link href="/pages/about-cellregen">About</Link>
+          <Link href="/about">About</Link>
         </li>
         <li>
           <Link href="/">FAQs</Link>

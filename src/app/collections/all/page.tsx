@@ -1,4 +1,4 @@
-import ProductCard from "@/components/collections/productCard";
+import ProductCard from "@/components/collectionsPage/productCard";
 import Main from "@/components/main";
 
 const Products = [

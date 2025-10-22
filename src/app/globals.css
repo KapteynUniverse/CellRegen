@@ -75,3 +75,7 @@ header li {
     }
   }
 }
+
+.about-wrapper {
+  @apply max-w-[46.875rem];
+}
