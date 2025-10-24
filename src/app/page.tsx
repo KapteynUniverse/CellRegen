@@ -10,23 +10,31 @@ import PreventivePowerOfCellRegen from "@/components/mainPage/preventivePowerOfC
 import RevitalizeYourLife from "@/components/mainPage/revitalizeYourLife";
 import Shopify from "@/components/mainPage/shopify";
 import Testimonials from "@/components/mainPage/testimonials";
+import Image from "next/image";
 
 export default function Home() {
   return (
     <>
       <Main title="CellRegen Main Page" srOnly>
         <Hero />
-        <div className="wrapper">
-          <BuiltForBioOptimization />
-          <PreventivePowerOfCellRegen />
-          <RevitalizeYourLife />
-          <ClinicallyProven />
-          <Testimonials />
-          <Instagram />
-          <CallToAction />
-          <PressMentions />
-          <BlogPosts />
-          <Shopify />
+        <BuiltForBioOptimization />
+        <PreventivePowerOfCellRegen />
+        <RevitalizeYourLife />
+        <ClinicallyProven />
+        <Testimonials />
+        <Instagram />
+        <CallToAction />
+        <PressMentions />
+        <BlogPosts />
+        <Shopify />
+        <div>
+          <Image
+            src="/images/Icons_desktop.webp"
+            alt=""
+            width={6006}
+            height={578}
+            className="bg-secondaryBg"
+          />
         </div>
       </Main>
     </>

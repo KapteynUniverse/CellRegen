@@ -4,7 +4,11 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <Main title="Health Benefits of Our Products" srOnly>
+    <Main
+      title="Health Benefits of Our Products"
+      srOnly
+      style="bg-secondaryBg text-secondaryFg"
+    >
       <div className="wrapper">
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(21.75rem,1fr))] gap-4">
           <li>

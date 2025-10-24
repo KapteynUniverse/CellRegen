@@ -2,11 +2,11 @@ import { Star } from "../svgComponents";
 
 const Shopify = () => {
   return (
-    <section aria-labelledby="shopify-section-title">
+    <section aria-labelledby="shopify-section-title" className="bg-secondaryBg">
       <h2 id="shopify-section-title" className="sr-only">
         Customer Reviews and Products
       </h2>
-      <div className="flex">
+      <div className="flex wrapper">
         <div className="flex-1/3 text-center">
           <p>4.9/5</p>
           <div className="flex justify-center" aria-hidden="true">

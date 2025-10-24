@@ -4,11 +4,12 @@ interface MainProps {
   children: ReactNode;
   title: string;
   srOnly?: boolean;
+  style?: string;
 }
 
-const Main = ({ children, title, srOnly }: MainProps) => {
+const Main = ({ children, title, srOnly, style }: MainProps) => {
   return (
-    <main>
+    <main className={style}>
       <h1 className={`text-center ${srOnly ? "sr-only" : ""}`}>{title}</h1>
       {children}
     </main>

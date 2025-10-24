@@ -28,11 +28,11 @@ const ProductCard = ({
           height={675}
           className="w-full"
         />
-        <button className="absolute right-1/2 translate-x-1/2 bottom-4 uppercase text-center bg-white text-black w-11/12 outline-1 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
+        <button className="absolute right-1/2 translate-x-1/2 bottom-4 uppercase text-center bg-secondaryBg w-11/12 outline-1 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer">
           Quick View
         </button>
         {discount && (
-          <p className="absolute top-2 left-2 px-1 py-1.5 uppercase bg-white text-red-500 outline-1 outline-red-500 w-fit">
+          <p className="absolute top-2 left-2 px-1 py-1.5 uppercase bg-secondaryBg text-accent outline-1 outline-accent w-fit">
             {discount}
           </p>
         )}
@@ -55,7 +55,7 @@ const ProductCard = ({
             </>
           )}
           <dt className="sr-only">Current Price</dt>
-          <dd>{currentPrice}</dd>
+          <dd className={`${oldPrice ? "text-accent" : ""}`}>{currentPrice}</dd>
         </dl>
       </div>
     </li>

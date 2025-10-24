@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <Main title="About Us">
+    <Main title="About Us" style="bg-secondaryBg text-secondaryFg">
       <div className="wrapper flex flex-col items-center">
         <Image src="/images/About_us.webp" width={750} height={366} alt="" />
         <div className="about-wrapper">
@@ -31,15 +31,14 @@ const Page = () => {
             Hywel Yuen , as well as NNB Nutrition and Sabinsa, globally
             recognized pioneers in nutritional science and bioactive ingredient
             innovation.
-            <p>
-              These trusted partnerships ensure that every step of our process
-              is rooted in expertise and credibility. By leveraging cutting-edge
-              research and clinically tested ingredients, we deliver supplements
-              that you can rely on to support your health and vitality. With
-              Cellregen<span aria-hidden>®</span>, you&apos;re not just getting
-              a product—you&apos;re investing in science, integrity, and
-              results.
-            </p>
+          </p>
+          <p>
+            These trusted partnerships ensure that every step of our process is
+            rooted in expertise and credibility. By leveraging cutting-edge
+            research and clinically tested ingredients, we deliver supplements
+            that you can rely on to support your health and vitality. With
+            Cellregen<span aria-hidden>®</span>, you&apos;re not just getting a
+            product—you&apos;re investing in science, integrity, and results.
           </p>
         </div>
         <div className="about-wrapper">

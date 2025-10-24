@@ -10,7 +10,7 @@ import TopNav from "./topNav";
 
 const Header = () => {
   return (
-    <header className="bg-[#18365a] p-4 sticky top-0 z-50">
+    <header className=" p-4 sticky top-0 z-50 bg-primaryBg">
       <div className="wrapper flex justify-between items-center">
         <Link href="/">
           <Image

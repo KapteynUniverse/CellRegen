@@ -51,7 +51,7 @@ const TopNav = () => {
       )}
       <ul
         ref={scrollRef}
-        className="flex items-center gap-6 overflow-x-auto scrollbar-none scroll-smooth "
+        className="flex items-center gap-6 overflow-x-auto overflow-y-visible scrollbar-none scroll-smooth "
       >
         <li>
           <Link href="/">Home</Link>
@@ -72,13 +72,13 @@ const TopNav = () => {
           <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href="/">FAQs</Link>
+          <Link href="/faqs">FAQs</Link>
         </li>
         <li>
-          <Link href="/pages/track-my-order">Track My Order</Link>
+          <Link href="/track-my-order">Track My Order</Link>
         </li>
         <li>
-          <Link href="/pages/contact-cellregen-uk">Contact</Link>
+          <Link href="/contact-us">Contact</Link>
         </li>
       </ul>
 

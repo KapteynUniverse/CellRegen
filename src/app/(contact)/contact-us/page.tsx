@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Page = () => {
   return (
-    <Main title="Contact Us" srOnly>
+    <Main title="Contact Us" srOnly style="bg-secondaryBg text-secondaryFg">
       <div className="wrapper">
         <div className="about-wrapper mx-auto">
           <Image

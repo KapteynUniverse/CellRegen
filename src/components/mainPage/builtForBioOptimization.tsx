@@ -5,7 +5,7 @@ const BuiltForBioOptimization = () => {
   return (
     <section
       aria-labelledby="built-for-bio-optimization-title"
-      className="flex flex-col lg:flex-row"
+      className="flex flex-col lg:flex-row "
     >
       <div className="flex-1">
         <h2 id="built-for-bio-optimization-title">

@@ -62,8 +62,12 @@ const Products = [
 
 const Page = () => {
   return (
-    <Main title="CellRegen Collections" srOnly>
-      <div className="wrapper">
+    <Main
+      title="CellRegen Collections"
+      srOnly
+      style="bg-secondaryBg text-secondaryFg"
+    >
+      <div className="wrapper ">
         <ul className="grid grid-cols-[repeat(auto-fit,minmax(17.5rem,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(22.5rem,1fr))] gap-4">
           {Products.map((product) => (
             <ProductCard

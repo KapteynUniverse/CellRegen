@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Page = () => {
   return (
-    <Main title="Collections">
+    <Main title="Collections" style="bg-secondaryBg text-secondaryFg">
       <div className="wrapper">
         <Link
           href="/collections/all"
