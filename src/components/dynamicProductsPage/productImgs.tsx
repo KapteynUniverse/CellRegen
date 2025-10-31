@@ -1,0 +1,115 @@
+import Image from "next/image";
+
+const ProductImgs = () => {
+  return (
+    <section aria-label="product-images" className="flex gap-4">
+      <div className="flex-2/12 flex flex-col gap-3 overflow-y-scroll max-h-[40rem]">
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+        <button>
+          <Image
+            src="/images/NAD_BURN_60_Capsules.webp"
+            width={300}
+            height={450}
+            alt=""
+          />
+        </button>
+      </div>
+      <Image
+        src="/images/NAD_BURN_60_Capsules.webp"
+        width={300}
+        height={450}
+        alt=""
+        className="flex-10/12 aspect-auto max-h-min"
+      />
+    </section>
+  );
+};
+
+export default ProductImgs;

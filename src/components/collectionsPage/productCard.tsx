@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 type ProductCardProps = {
+  url: string;
   imgUrl: string;
   title: string;
   oldPrice?: string;
@@ -11,6 +12,7 @@ type ProductCardProps = {
 };
 
 const ProductCard = ({
+  url,
   imgUrl,
   title,
   oldPrice,
@@ -20,7 +22,7 @@ const ProductCard = ({
 }: ProductCardProps) => {
   return (
     <li className={`group ${inStock ? "opacity-100" : "opacity-50"}`}>
-      <div className="relative">
+      <Link href={`/products/${url}`} className="relative">
         <Image
           src={imgUrl}
           alt=""
@@ -36,13 +38,10 @@ const ProductCard = ({
             {discount}
           </p>
         )}
-      </div>
+      </Link>
       <div className="text-center">
         <h2>
-          <Link
-            href="/collections/CellRegen-Female-Renewal-Protocol"
-            className="uppercase"
-          >
+          <Link href={`/products/${url}`} className="uppercase">
             {title}
           </Link>
         </h2>

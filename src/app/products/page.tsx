@@ -8,7 +8,7 @@ const Page = () => {
     <Main title="Collections" style="bg-secondaryBg text-secondaryFg">
       <div className="wrapper">
         <Link
-          href="/collections/all"
+          href="/products/all"
           className="relative inline-block group scale-75"
         >
           <Image

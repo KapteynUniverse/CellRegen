@@ -3,6 +3,7 @@ import Main from "@/components/main";
 
 const Products = [
   {
+    url: "female-renewal-protocol",
     imgUrl: "/images/products/CellRegen-Female-Renewal-Protocol.webp",
     title: "CellRegen Female Renewal Protocol",
     oldPrice: "£220.00",
@@ -11,6 +12,7 @@ const Products = [
     inStock: true,
   },
   {
+    url: "male-vitality-protocol",
     imgUrl: "/images/products/CellRegen-Male-Vitality-Protocol.webp",
     title: "CellRegen Male Vitality Protocol",
     oldPrice: "£220.00",
@@ -19,6 +21,7 @@ const Products = [
     inStock: true,
   },
   {
+    url: "metabolic-reset-protocol",
     imgUrl: "/images/products/CellRegen-Metabolic-Reset-Protocol.webp",
     title: "CellRegen Metabolic Reset Protocol",
     oldPrice: "£220.00",
@@ -27,6 +30,7 @@ const Products = [
     inStock: true,
   },
   {
+    url: "nad-burn",
     imgUrl:
       "/images/products/NAD_BURN_-60-Capsules-_-Lose-Weight_-Burn-Fat_-Boost-Energy-_-Enhance-Anti-Aging-Support.webp",
     title:
@@ -35,6 +39,7 @@ const Products = [
     inStock: true,
   },
   {
+    url: "nad-her",
     imgUrl:
       "/images/products/NAD_HER_-90-Capsules-_Radiant-Beauty-_-Anti-Aging-Power_-Boost-NAD_-Glutathione_-Skin-Hydration-_-DNA-Repair.webp",
     title:
@@ -43,6 +48,7 @@ const Products = [
     inStock: true,
   },
   {
+    url: "nad-him",
     imgUrl:
       "/images/products/NAD_HIM_-90-Capsules-_Boost-Testosterone_-NAD_-Stem-Cell-Health-_-Glutathione-for-Vitality_-Energy_-and-Performance.webp",
     title:
@@ -51,6 +57,7 @@ const Products = [
     inStock: true,
   },
   {
+    url: "stem-xr",
     imgUrl:
       "/images/products/StemXR_-90-Capsules-_-Amplify-Stem-Cells_-Supercharge-Energy_-Rejuvenate-Skin_-and-Transform-Your-Vitality.webp",
     title:
@@ -72,6 +79,7 @@ const Page = () => {
           {Products.map((product) => (
             <ProductCard
               key={product.title}
+              url={product.url}
               imgUrl={product.imgUrl}
               title={product.title}
               oldPrice={product.oldPrice}
