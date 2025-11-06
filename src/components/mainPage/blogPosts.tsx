@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const BlogPosts = () => {
   return (
-    <section aria-labelledby="blog-posts-title" className="bg-secondaryBg">
+    <section aria-labelledby="blog-posts-title" className="bg-secondaryBg py-8">
       <div className="wrapper">
         <Link href="/pages/cellregen-global-publications">
           See all Global Publications

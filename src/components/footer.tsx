@@ -6,7 +6,7 @@ import Address from "./address";
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="py-8">
       <div className="wrapper">
         <div className="flex flex-col lg:flex-row justify-center">
           <div className="flex-1">

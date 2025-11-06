@@ -4,7 +4,7 @@ const RevitalizeYourLife = () => {
   return (
     <section
       aria-labelledby="revitalize-your-life-title"
-      className="bg-secondaryBg"
+      className="bg-secondaryBg py-12"
     >
       <div className="wrapper">
         <h2 id="revitalize-your-life-title">
@@ -15,7 +15,7 @@ const RevitalizeYourLife = () => {
           Advanced stem cell solutions for rejuvenation, vitality, and radiant
           beauty
         </p>
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row gap-8">
           <video
             playsInline
             autoPlay
@@ -32,14 +32,16 @@ const RevitalizeYourLife = () => {
             />
           </video>
           <div className="flex-1">
-            <ul className="grid grid-cols-1 lg:grid-cols-2">
+            <ul className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               <li>
-                <article>
+                <article className="flex lg:flex-col">
                   <Image
                     alt=""
                     src="/images/StemXR_90_Capsules.webp"
                     width={300}
                     height={450}
+                    className="w-full h-auto object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <p>
                     StemXR® 90 Capsules | Elevate Stem Cells & Revitalize
@@ -50,12 +52,14 @@ const RevitalizeYourLife = () => {
                 </article>
               </li>
               <li>
-                <article>
+                <article className="flex lg:flex-col">
                   <Image
                     alt=""
                     src="/images/NAD_HER_90_Capsules.webp"
                     width={300}
                     height={450}
+                    className="w-full h-auto object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <p>
                     NAD+HER® 90 Capsules | Radiant Beauty & Cellular Renewal
@@ -66,12 +70,14 @@ const RevitalizeYourLife = () => {
                 </article>
               </li>
               <li>
-                <article>
+                <article className="flex lg:flex-col">
                   <Image
                     alt=""
                     src="/images/NAD_HIM_90_Capsules.webp"
                     width={300}
                     height={450}
+                    className="w-full h-auto object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <p>
                     NAD+HIM® 90 Capsules |Boost Testosterone, NAD+, Stem Cell
@@ -82,12 +88,14 @@ const RevitalizeYourLife = () => {
                 </article>
               </li>
               <li>
-                <article>
+                <article className="flex lg:flex-col">
                   <Image
                     alt=""
                     src="/images/NAD_BURN_60_Capsules.webp"
                     width={300}
                     height={450}
+                    className="w-full h-auto object-contain"
+                    sizes="(max-width: 1024px) 100vw, 50vw"
                   />
                   <p>
                     NAD+BURN™ | Thermogenic & Metabolic ComplexAdvanced fat-loss

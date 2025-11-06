@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const PressMentions = () => {
   return (
-    <section aria-labelledby="press-mentions-title">
+    <section aria-labelledby="press-mentions-title" className="py-8">
       <h2 id="press-mentions-title">Endorsed by 400+ Trusted Publications</h2>
-      <ul className="grid grid-cols-[repeat(auto-fit,minmax(17.5rem,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(22.5rem,1fr))]">
+      <ul className="grid grid-cols-[repeat(auto-fit,minmax(17.5rem,1fr))] sm:grid-cols-[repeat(auto-fit,minmax(22.5rem,1fr))] gap-8">
         <li>
           <Image src="/images/Forbes.webp" width={360} height={360} alt="" />
           <h3>&quot;Advanced Cellular Solutions&quot;</h3>

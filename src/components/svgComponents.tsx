@@ -22,7 +22,7 @@ export const Dot = () => {
       viewBox="0 0 2 2"
       className="fill-gray-900"
     >
-      <circle cx="1" cy="1" r="1"></circle>
+      <circle cx="1" cy="1" r=".2"></circle>
     </svg>
   );
 };

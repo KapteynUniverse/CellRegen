@@ -5,9 +5,9 @@ const BuiltForBioOptimization = () => {
   return (
     <section
       aria-labelledby="built-for-bio-optimization-title"
-      className="flex flex-col lg:flex-row "
+      className="flex flex-col lg:flex-row gap-8 py-12"
     >
-      <div className="flex-1">
+      <div className="flex-1 flex flex-col justify-center gap-8">
         <h2 id="built-for-bio-optimization-title">
           Built for Bio-Optimization. Powered by Stem Science.
         </h2>
@@ -52,7 +52,8 @@ const BuiltForBioOptimization = () => {
         alt=""
         width={320}
         height={320}
-        className="flex-1 w-full"
+        className="flex-1 w-full h-auto object-contain"
+        sizes="(max-width: 1024px) 100vw, 50vw"
       />
     </section>
   );

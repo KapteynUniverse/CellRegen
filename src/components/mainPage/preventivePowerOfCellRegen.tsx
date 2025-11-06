@@ -4,9 +4,9 @@ const PreventivePowerOfCellRegen = () => {
   return (
     <section
       aria-labelledby="preventive-power-of-cell-regen-title"
-      className="flex flex-col lg:flex-row"
+      className="flex flex-col lg:flex-row gap-8 py-12"
     >
-      <div className="flex-1">
+      <div className="flex-1 flex flex-col justify-center gap-8">
         <p aria-hidden>CELLREGEN®</p>
         <h2 id="preventive-power-of-cell-regen-title">
           The Preventive Power of CellRegen
@@ -32,7 +32,7 @@ const PreventivePowerOfCellRegen = () => {
           critical for the body&apos;s natural ability to repair tissue,
           regenerate organs, and sustain systemic resilience.
         </p>
-        <ul>
+        <ul className="list-disc px-8">
           <li>Supports early intervention at the cellular level</li>
           <li>
             Strengthens natural defense systems before dysfunction appears
@@ -61,7 +61,8 @@ const PreventivePowerOfCellRegen = () => {
         alt=""
         width={320}
         height={320}
-        className="flex-1 w-full"
+        className="flex-1 w-full h-auto object-contain"
+        sizes="(max-width: 1024px) 100vw, 50vw"
       />
     </section>
   );

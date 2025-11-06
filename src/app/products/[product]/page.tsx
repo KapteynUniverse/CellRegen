@@ -5,8 +5,8 @@ import WhatIs from "@/components/dynamicProductsPage/whatIs";
 import Main from "@/components/main";
 import { upperCaseWithoutSymbol } from "@/utils/formatTitle";
 
-const Page = ({ params }: { params: { product: string } }) => {
-  const { product } = params;
+const Page = async ({ params }: { params: Promise<{ product: string }> }) => {
+  const { product } = await params;
   const formattedTitle = upperCaseWithoutSymbol(product, "-");
 
   console.log(formattedTitle);
