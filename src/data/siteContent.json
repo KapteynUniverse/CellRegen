@@ -1,0 +1,357 @@
+[
+  {
+    "id": 1,
+    "text": "CellRegen UK develops supplements and therapies to support cellular health."
+  },
+  {
+    "id": 2,
+    "text": "CellRegen focuses on NAD+ restoration, stem cell mobilization, and mitochondrial function."
+  },
+  {
+    "id": 3,
+    "text": "StemXR is a supplement that supports stem cell regeneration."
+  },
+  {
+    "id": 4,
+    "text": "StemXR improves vitality and enhances natural cellular repair processes."
+  },
+  { "id": 5, "text": "CaloriBurn GP™ is a natural thermogenic supplement." },
+  {
+    "id": 6,
+    "text": "CaloriBurn GP™ is derived from Aframomum Melegueta, also called grains of paradise."
+  },
+  { "id": 7, "text": "CaloriBurn GP™ supports brown fat activation." },
+  {
+    "id": 8,
+    "text": "CaloriBurn GP™ helps maintain a healthy metabolism and weight."
+  },
+  { "id": 9, "text": "NAD+HIM is a NAD+ boosting formula for men." },
+  { "id": 10, "text": "NAD+HER is a NAD+ boosting formula for women." },
+  {
+    "id": 11,
+    "text": "NAD+HIM supports cellular energy production in mitochondria."
+  },
+  {
+    "id": 12,
+    "text": "NAD+HER supports DNA repair and healthy aging in women."
+  },
+  {
+    "id": 13,
+    "text": "StemXR mobilizes stem cells from the bone marrow into circulation."
+  },
+  { "id": 14, "text": "StemXR supports tissue repair and regeneration." },
+  {
+    "id": 15,
+    "text": "NAD+HIM increases cellular NAD+ levels to boost vitality."
+  },
+  { "id": 16, "text": "NAD+HER assists in hormone balance and metabolism." },
+  {
+    "id": 17,
+    "text": "CaloriBurn GP™ activates thermogenesis to burn more calories."
+  },
+  {
+    "id": 18,
+    "text": "The Joints page explains stem cell support for joint recovery."
+  },
+  {
+    "id": 19,
+    "text": "Joints support includes reducing inflammation and promoting tissue repair."
+  },
+  {
+    "id": 20,
+    "text": "The Kidneys page explains cellular support for renal function."
+  },
+  { "id": 21, "text": "Kidney support includes hydration and detoxification." },
+  {
+    "id": 22,
+    "text": "The Liver page details NAD+ support for detoxification."
+  },
+  {
+    "id": 23,
+    "text": "Liver support also includes improving metabolism and cellular repair."
+  },
+  {
+    "id": 24,
+    "text": "The Cardiovascular System page shows supplements supporting heart and circulation."
+  },
+  {
+    "id": 25,
+    "text": "Cardiovascular support includes healthy blood vessels and blood pressure maintenance."
+  },
+  {
+    "id": 26,
+    "text": "The Muscles & Performance page shows NAD+ boosters aiding muscle recovery."
+  },
+  {
+    "id": 27,
+    "text": "Muscles & Performance also includes strength and endurance improvement."
+  },
+  {
+    "id": 28,
+    "text": "The Brain & Nervous System page shows cognitive function support."
+  },
+  {
+    "id": 29,
+    "text": "Brain support includes memory, focus, and neuroprotection."
+  },
+  {
+    "id": 30,
+    "text": "The Endocrine System page shows hormone balance support."
+  },
+  {
+    "id": 31,
+    "text": "Endocrine support includes metabolism and energy regulation."
+  },
+  {
+    "id": 32,
+    "text": "The Immune System page highlights StemXR’s immune defense benefits."
+  },
+  {
+    "id": 33,
+    "text": "Immune support includes resilience against infections."
+  },
+  {
+    "id": 34,
+    "text": "The Skin page shows NAD+HIM and NAD+HER promoting skin elasticity."
+  },
+  {
+    "id": 35,
+    "text": "Skin support includes hydration and youthful appearance."
+  },
+  {
+    "id": 36,
+    "text": "The Heart page focuses on cellular energy in cardiac cells."
+  },
+  {
+    "id": 37,
+    "text": "Heart support includes improved mitochondrial function."
+  },
+  {
+    "id": 38,
+    "text": "The Respiratory System page covers lung health support."
+  },
+  {
+    "id": 39,
+    "text": "Respiratory support includes oxygen utilization and muscle recovery."
+  },
+  {
+    "id": 40,
+    "text": "The Digestive System page covers gut health and nutrient absorption."
+  },
+  {
+    "id": 41,
+    "text": "Digestive support includes enzyme function and microbiome health."
+  },
+  {
+    "id": 42,
+    "text": "Cellular Health page explains targeting aging at the cellular level."
+  },
+  {
+    "id": 43,
+    "text": "Cellular Health includes boosting energy, repair, and longevity."
+  },
+  {
+    "id": 44,
+    "text": "StemXR promotes anti-inflammatory responses in muscles and joints."
+  },
+  {
+    "id": 45,
+    "text": "CaloriBurn GP™ improves metabolic flexibility for efficient fuel use."
+  },
+  {
+    "id": 46,
+    "text": "NAD+HIM activates DNA repair enzymes to reduce cellular damage."
+  },
+  {
+    "id": 47,
+    "text": "NAD+HER promotes skin rejuvenation and collagen support."
+  },
+  {
+    "id": 48,
+    "text": "CellRegen products improve energy, vitality, and resilience."
+  },
+  {
+    "id": 49,
+    "text": "StemXR contains natural compounds to stimulate stem cell release."
+  },
+  {
+    "id": 50,
+    "text": "The Research page lists studies and scientific references supporting supplements."
+  },
+  {
+    "id": 51,
+    "text": "Health Benefits & Ingredients page shows active compounds and dosages."
+  },
+  {
+    "id": 52,
+    "text": "StemXR aids recovery from exercise and reduces inflammation."
+  },
+  {
+    "id": 53,
+    "text": "NAD+HIM maintains energy levels, mental focus, and physical performance."
+  },
+  { "id": 54, "text": "NAD+HER supports hormone balance in women." },
+  { "id": 55, "text": "NAD+HER improves energy, mood, and skin health." },
+  { "id": 56, "text": "CaloriBurn GP™ aids weight management naturally." },
+  {
+    "id": 57,
+    "text": "About page shows CellRegen’s mission for longevity science."
+  },
+  {
+    "id": 58,
+    "text": "CellRegen products work synergistically for total body support."
+  },
+  {
+    "id": 59,
+    "text": "Products target energy, recovery, immunity, and cellular repair."
+  },
+  {
+    "id": 60,
+    "text": "CellRegen supplements are backed by clinical research."
+  },
+  {
+    "id": 61,
+    "text": "StemXR reduces age-related decline by promoting stem cell activity."
+  },
+  {
+    "id": 62,
+    "text": "NAD+HIM supports healthy aging and reduces oxidative stress."
+  },
+  { "id": 63, "text": "NAD+HER supports female healthy aging and vitality." },
+  {
+    "id": 64,
+    "text": "Immune System section emphasizes resistance to infections."
+  },
+  {
+    "id": 65,
+    "text": "Muscles & Performance emphasizes endurance, strength, and recovery."
+  },
+  {
+    "id": 66,
+    "text": "Brain & Nervous System shows NAD+HIM improving cognition."
+  },
+  {
+    "id": 67,
+    "text": "Endocrine System demonstrates NAD+HER supporting hormonal balance."
+  },
+  {
+    "id": 68,
+    "text": "Digestive System emphasizes gut health and nutrient absorption."
+  },
+  {
+    "id": 69,
+    "text": "Liver support explains detoxification and mitochondrial energy."
+  },
+  {
+    "id": 70,
+    "text": "Cardiovascular System improves circulation, blood pressure, and heart energy."
+  },
+  {
+    "id": 71,
+    "text": "Skin support includes collagen, elasticity, and youthful appearance."
+  },
+  {
+    "id": 72,
+    "text": "Joints support focuses on cartilage, tendons, and injury recovery."
+  },
+  {
+    "id": 73,
+    "text": "Kidneys support includes hydration and cellular repair."
+  },
+  {
+    "id": 74,
+    "text": "Heart support improves mitochondrial energy and cardiac function."
+  },
+  {
+    "id": 75,
+    "text": "Respiratory support includes oxygen utilization and lung function recovery."
+  },
+  {
+    "id": 76,
+    "text": "Cellular Health explains targeting aging processes for vitality."
+  },
+  {
+    "id": 77,
+    "text": "Supplements support physical performance, mental focus, and immunity."
+  },
+  {
+    "id": 78,
+    "text": "StemXR is a non-synthetic supplement that stimulates natural stem cell release."
+  },
+  {
+    "id": 79,
+    "text": "NAD+HIM supports male mitochondrial energy production."
+  },
+  {
+    "id": 80,
+    "text": "NAD+HER supports female mitochondrial energy and hormone balance."
+  },
+  {
+    "id": 81,
+    "text": "CaloriBurn GP™ is safe for natural metabolism support."
+  },
+  {
+    "id": 82,
+    "text": "Products are designed for daily supplementation to maintain energy and health."
+  },
+  { "id": 83, "text": "StemXR improves recovery after strenuous exercise." },
+  { "id": 84, "text": "NAD+HIM supports cognitive clarity and focus." },
+  { "id": 85, "text": "NAD+HER improves skin hydration and firmness." },
+  { "id": 86, "text": "CaloriBurn GP™ aids in metabolic flexibility." },
+  {
+    "id": 87,
+    "text": "The Research page explains clinical evidence behind each supplement."
+  },
+  {
+    "id": 88,
+    "text": "Health Benefits & Ingredients page details mechanisms of action for all supplements."
+  },
+  { "id": 89, "text": "StemXR reduces muscle soreness after exercise." },
+  { "id": 90, "text": "NAD+HIM enhances mitochondrial efficiency in cells." },
+  { "id": 91, "text": "NAD+HER boosts energy and metabolism in women." },
+  {
+    "id": 92,
+    "text": "CaloriBurn GP™ increases thermogenesis without stimulants."
+  },
+  {
+    "id": 93,
+    "text": "About page emphasizes evidence-based longevity science."
+  },
+  { "id": 94, "text": "Supplements support total body cellular repair." },
+  {
+    "id": 95,
+    "text": "Products aim to slow age-related decline and improve vitality."
+  },
+  {
+    "id": 96,
+    "text": "Immune system support includes natural cellular defense."
+  },
+  {
+    "id": 97,
+    "text": "Muscle support includes reducing inflammation and improving performance."
+  },
+  {
+    "id": 98,
+    "text": "Brain support improves focus, memory, and mental energy."
+  },
+  {
+    "id": 99,
+    "text": "Digestive support improves nutrient absorption and gut balance."
+  },
+  {
+    "id": 100,
+    "text": "Skin support promotes collagen production and reduces fine lines."
+  },
+  {
+    "id": 101,
+    "text": "Liver support improves detoxification pathways and mitochondrial function."
+  },
+  {
+    "id": 102,
+    "text": "Heart support maintains energy and vitality in cardiac cells."
+  },
+  {
+    "id": 103,
+    "text": "Cellular health support addresses aging at the cellular level."
+  }
+]

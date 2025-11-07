@@ -3,6 +3,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
+import Chatbot from "@/components/chatBot";
 
 const poppinsSans = Poppins({
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Chatbot />
       </body>
     </html>
   );
