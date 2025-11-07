@@ -81,8 +81,17 @@ svg {
 .scrollbar-none::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+
+meter::-webkit-meter-optimum-value {
+  background: theme("colors.yellow.400");
+}
+
 header li {
   @apply flex-1 min-w-fit;
+}
+
+header li a {
+  @apply relative after:content-[''] after:absolute after:left-0 after:bottom-0 after:h-[1px] after:w-full after:bg-current after:scale-x-0 after:origin-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-left;
 }
 
 @layer utilities {

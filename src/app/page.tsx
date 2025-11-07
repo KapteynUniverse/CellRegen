@@ -27,13 +27,13 @@ export default function Home() {
         <PressMentions />
         <BlogPosts />
         <Shopify />
-        <div>
+        <div className="bg-secondaryBg">
           <Image
             src="/images/Icons_desktop.webp"
             alt=""
             width={6006}
             height={578}
-            className="bg-secondaryBg"
+            className="bg-secondaryBg scale-75"
           />
         </div>
       </Main>

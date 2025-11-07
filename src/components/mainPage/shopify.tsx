@@ -8,7 +8,13 @@ const Shopify = () => {
       </h2>
       <div className="flex wrapper">
         <div className="flex-1/3 text-center">
-          <p>4.9/5</p>
+          <p className="font-medium">
+            4.9
+            <abbr title="out of" className="no-underline">
+              /
+            </abbr>
+            5
+          </p>
           <div className="flex justify-center" aria-hidden="true">
             <Star color={"yellow"} />
             <Star color={"yellow"} />
@@ -23,12 +29,12 @@ const Shopify = () => {
             {[5, 4, 3, 2, 1].map((stars, index) => {
               const values = [87, 13, 0, 0, 0];
               return (
-                <div key={stars} className="flex items-center gap-2">
-                  <dt className="flex items-center gap-1">
+                <div key={stars} className="flex items-center gap-4">
+                  <dt className="flex items-center justify-between gap-2 min-w-12">
                     <span>{stars}</span>
                     <Star color="yellow" aria-hidden="true" />
                   </dt>
-                  <dd className="flex-1">
+                  <dd className="flex-1 flex items-center gap-8">
                     <meter
                       min="0"
                       max="100"
@@ -38,6 +44,7 @@ const Shopify = () => {
                     >
                       {values[index]}%
                     </meter>
+                    <p>{values[index]}%</p>
                   </dd>
                 </div>
               );

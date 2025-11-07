@@ -18,6 +18,7 @@ const Header = () => {
             alt="CellRegen Home"
             width={320}
             height={105}
+            className="scale-75"
           />
         </Link>
         <TopNav />
